@@ -991,9 +991,12 @@ MonoBehaviour:
   - {fileID: 6469418768517316892, guid: 7fd85ab8e2c78486b85751a1ff13fc92, type: 3}
   - {fileID: 977312039714870006, guid: 3f19daa9d620240b7bef312ef5870b0e, type: 3}
   - {fileID: 7128535839345074448, guid: b0ea7031312964fc0bb47cfc767444d3, type: 3}
+  - {fileID: 7391661874636330172, guid: fd226f0f438af42e7836a5d67b6e8b81, type: 3}
+  - {fileID: 3424595911393577927, guid: 7937ee60985c543a9b1aed474eebc1dd, type: 3}
+  - {fileID: 2021869059019044053, guid: a531fa75c55544d3fbd8f0c309c5177e, type: 3}
   xbound1: -2.64
   xbound2: 2.81
-  ybound: 4.57
+  ybound: 4.4
 --- !u!4 &1348698786
 Transform:
   m_ObjectHideFlags: 0
