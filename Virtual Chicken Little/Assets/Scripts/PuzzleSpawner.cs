@@ -15,7 +15,7 @@ public class PuzzleSpawner : MonoBehaviour
 
     IEnumerator SpawnRandomPuzzlePieces()
     {
-      yield return new WaitForSeconds(Random.Range(1, 4));
+      yield return new WaitForSeconds(Random.Range(1, 3));
       int rPuzzle = Random.Range(0, puzzles.Length);
 
       if(Random.value <= .5f)
