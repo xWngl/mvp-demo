@@ -10,12 +10,21 @@ public class PuzzleSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(SpawnRandomPuzzle());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator SpawnRandomPuzzle() 
     {
-        
+        yield return new WaitForSeconds(Random.Range(1, 2));
+
+        int randomPuzzle = Random.Range(0, puzzles.Length);
+
+        if(Random.value <= .6f) {
+            Instantiate(puzzles[randomPuzzle],
+            new Vector2(Random.Range(xbound1, xbound2),
+                ybound), Quaternion.identity);
+        }
+
+        StartCoroutine(SpawnRandomPuzzle());
     }
 }
