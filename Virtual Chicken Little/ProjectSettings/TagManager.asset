@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background City
+    uniqueID: 1942624705
+    locked: 0
+  - name: Background Ground
+    uniqueID: 3716215713
+    locked: 0
+  - name: Chicken Little
+    uniqueID: 158203439
+    locked: 0
+  - name: puzzle
+    uniqueID: 1163387413
+    locked: 0
