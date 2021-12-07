@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - header
+  - not header
+  - background
+  - border
+  - height
+  - width
+  - color
+  - paragraph
+  - italic
+  - bold
   layers:
   - Default
   - TransparentFX
@@ -52,4 +62,7 @@ TagManager:
     locked: 0
   - name: puzzle
     uniqueID: 1163387413
+    locked: 0
+  - name: UI
+    uniqueID: 3016736477
     locked: 0
